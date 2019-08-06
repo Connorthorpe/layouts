@@ -461,6 +461,35 @@ header {
   .cards .card__wrapper .card {
     width: calc(100%/4); } }
 
+.images {
+  background-color: #ededed; }
+  .images .images__wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto; }
+    .images .images__wrapper .top {
+      display: flex;
+      flex-direction: row; }
+      .images .images__wrapper .top .portraits img {
+        max-height: 380px;
+        width: 280px; }
+        .images .images__wrapper .top .portraits img:first-child {
+          padding-right: 10px; }
+        .images .images__wrapper .top .portraits img:last-child {
+          padding-left: 10px; }
+      .images .images__wrapper .top .landscape img {
+        max-height: 380px;
+        width: 580px;
+        padding-left: 20px; }
+    .images .images__wrapper .bottom {
+      display: flex;
+      flex-direction: row; }
+      .images .images__wrapper .bottom .landscape img {
+        max-height: 380px;
+        width: 580px;
+        padding: 0 10px; }
+
 body {
   font-family: 'Montserrat', sans-serif; }
   body h1 {
