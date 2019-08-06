@@ -64,6 +64,7 @@ header{
                 height: 80px;
                 width: 80px;
                 border-radius: 50%;
+                cursor: pointer;
     
                 .symbol{
                     display: flex;
@@ -118,7 +119,7 @@ header{
         .header__container{
             .main__content{
                 h1{
-                    font-size: 50px;
+                    font-size: 70px;
                 }
     
                 h2{
@@ -134,7 +135,7 @@ header{
         .header__container{
             .main__content{
                 h1{
-                    font-size: 55px;
+                    font-size: 80px;
                 }
     
                 h2{
@@ -150,7 +151,8 @@ header{
         .header__container{
             .main__content{
                 h1{
-                    font-size: 60px;
+                    font-size: 90px;
+                    max-width: 550px;
                 }
     
                 h2{
