@@ -34,13 +34,13 @@
                             <a href="#intro">Intro</a>
                         </li>
                         <li>
-                            <a href="#">Cards</a>
+                            <a href="#cards">Cards</a>
                         </li>
                         <li>
-                            <a href="#">Aside</a>
+                            <a href="#aside">Aside</a>
                         </li>
                         <li>
-                            <a href="#">Images</a>
+                            <a href="#images">Images</a>
                         </li>
                     </ul>
                 </nav>
@@ -70,7 +70,7 @@
                 </p>
             </div>
         </section>
-        <section class="cards">
+        <section class="cards" id="cards">
             <div class="card__wrapper">
                 <div class="card">
                     <div class="image__wrapper">
@@ -147,7 +147,19 @@
                             </div>
             </div>
         </section>
-        <section class="images">
+        <section class="aside" id="aside">
+            <div class="aside__wrapper">
+                <div class="top">
+                    <img src="images/aside1.jpg" alt="side image">
+                    <h3>This is a short description of the image to the left.</h3>
+                </div>
+                <div class="bottom">
+                    <h3>This is a short description of the image to the right.</h3>
+                    <img src="images/aside2.jpg" alt="side image">
+                </div>
+            </div>
+        </section>
+        <section class="images" id="images">
             <div class="images__wrapper">
                 <div class="top">
                     <div class="portraits">
@@ -172,7 +184,9 @@
                 </div>
             </div>
         </section>
-        
+        <footer>
+            <h3>Copyright © 2019 Connor Thorpe. All Rights Reserved</h3>
+        </footer>
         <!--JS-->
         <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"

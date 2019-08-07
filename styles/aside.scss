@@ -1,0 +1,32 @@
+.aside{
+    background-color:#ededed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+        max-width: 300px;
+        max-height: 600px;
+    }
+
+    .aside__wrapper{
+        max-width: 1200px;
+        width: 100%;
+
+        .top{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .bottom{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+}
