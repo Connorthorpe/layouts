@@ -1,5 +1,7 @@
 .images{
     background-color: #ededed;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
     .images__wrapper{
         display: flex;
@@ -10,27 +12,30 @@
         .top{
             display: flex;
             flex-direction: row;
+            padding-bottom: 20px;
 
             .portraits{
-                img{
-                    max-height: 380px;
-                    width: 280px;
+                width: 600px;
+                height: 380px;
+                display: flex;
+                flex-direction: row;
 
-                    &:first-child{
-                        padding-right: 10px;
-                    }
-                    &:last-child{
-                        padding-left: 10px;
-                    }
+                img{
+                    height: 100%;
+                    width: calc(50% - 20px);
+                    padding-left: 10px;
+                    padding-right: 10px;
                 }
-                
             }
     
             .landscape{
+                width: 600px;
+                height: 380px;
                 img{
-                    max-height: 380px;
-                    width: 580px;
-                    padding-left: 20px;
+                    height: 100%;
+                    width: calc(100% - 20px);
+                    padding-left: 10px;
+                    padding-right: 10px;
                 }
             }
         }
@@ -40,10 +45,24 @@
             flex-direction: row;
 
             .landscape{
+                width: 600px;
+                height: 380px;
+
                 img{
-                    max-height: 380px;
-                    width: 580px;
-                    padding: 0 10px;
+                    height: 100%;
+                    width: calc(100% - 20px);
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+            }
+
+            .text__content{
+                width: 600px;
+
+                p{
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    margin: 0;
                 }
             }
         }
