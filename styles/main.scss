@@ -1,4 +1,4 @@
-// @import 'normalize';
+@import 'normalize';
 @import 'header.scss';
 @import 'intro.scss';
 @import 'cards.scss';
@@ -16,5 +16,13 @@ body{
 
     p{
         line-height: 30px;
+    }
+
+    img{
+        transition: transform .2s;
+    }
+
+    img:hover{
+        transform: scale(1.2);
     }
 }
